@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="css.css" />
+	 <title> Aide </title></head>
+<body>
+	<div class="contact-title">
+ <h1> Vous êtes pas seul ici! </h1>	
+ <h2> Veuillez-vous remplir la formule :</h2>
+</div>
+ <div class="contact-form">
+ 	<form id="contact-form" method="post" action="php.php">
+ 		<input type="text" name="Nom" class="form-control" placeholder="Votre Nom" required> <br/>
+ 		<input type="text" name="Pré-nom" class="form-control" placeholder="Votre Pré-nom" required><br/>
+ 		<input type="email" name="email" class="form-control" placeholder="Your Email" required><br/>
+ 		
+</form>
+ 		<textarea name="message" class="form-control" placeholder="Votre probléme" row="4" required></textarea>
+ 		<div class="contact-title"> Déposez votre CV : <br/> <br/> </div>
+  		<input type="file" name="fileToUpload" class="form-control" placeholder="Select image to upload" id="fileToUpload">
+  			<br/>
+  		<div class="checkbox">
+  		<input type="checkbox" id="CB"> <label for="CB"> Remebre me <label/>
+  			</div>
+  			<br/>
+ 		<input type="submit" class="form-control submit">
+ </div>
+
+
+</body>
+</html>

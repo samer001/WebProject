@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF8"/>
+        <title>Quiz.Bill Gates</title>
+        <link rel="stylesheet" type="text/css" href="quiz.css" />
+    </head>
+    <body>
+        <form name="quiz" id="quiz">
+ <h1 >Quiz sur Bill gates </h1>
+  
+      <p class="p1">* Quelle est la natiionalité de Bill Gates ?  </p>
+      <div>
+      <p><input type="radio" name"question1" value="japonaise">1.japonaise</p>
+      <p><input type="radio" name"question1" value="américaine">2.américaine</p>
+      <p><input type="radio" name"question1" value="anglaise">3.anglaise</p>
+      </div>
+      
+      <p class="p1"> * Quand la société Microsoft a été fondée ?</p>
+      <div>
+      <p><input type="radio" name"question2" value="1996">1.1996</p>
+      <p><input type="radio" name"question2" value="2005">1.2005</p>
+      <p><input type="radio" name"question2" value="1975">1.1975</p>
+    </div>
+    
+      <p class="p1"> * A quelle université a fait-il ses etudes Bill Gates ? </p>
+      <div>
+      <p><input type="radio" name"question3" value="l'université Harvard">1.l'université Harvard</p>
+      <p><input type="radio" name"question3" value="l'université de Sorbonne ">2.l'université de Sorbonne</p>
+      <p><input type="radio" name"question3" value="L'université de Montpellier">3.L'université de Montpellier</p>
+    </div>
+    <input type="submit" style="border-color: lightcoral; color: #00396e; margin-left: 100px;" value="Envoyer">
+</form>
+<h2> Questionnaire </h2>
+<form action="correction-qustionnaire.php">
+<ul></ul>
+NOM : <input name="Nom" type="text">
+PRENOM: <input name"Prenom" type="text">
+<br></br>
+ vous etes : </br> 
+ <input name="statut"  value="ET" type="radio"> Etudiant </br>
+ <input name ="statut" value="Employeur" type="radio" > Employeur <br></br>
+ <input value="Envoyer !" type ="submit">
+
+</form>
+<php
+total: 0 ;
+foreach ($-Get as $numero=>$reponse){
+    echo <li> , $numero, " : $reponse, "</li>";
+}
+?>
+    </body>
+
+</html>

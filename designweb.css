@@ -1,0 +1,28 @@
+#banner {
+    display: block;    
+    background-color:cadetblue;
+    height: 50px;
+    width: 100px;
+}
+#banner {
+    display: block;    
+    background-color:cadetblue;
+    height: 50px;
+    width: 100px;
+}
+
+html, body{
+    background:url("") ;
+    background-size: cover;
+
+}
+h1{
+    text-align-last: center;
+    font-size: ;
+}
+h2{
+
+}
+h3{
+    
+}

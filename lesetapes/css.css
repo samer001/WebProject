@@ -1,0 +1,57 @@
+body{
+text-align: center;
+background: linear-gradient(rgba(50,0,0,0.5),rgba(0,0,0,1)),url(pic2.jpg);
+background-position: center;
+font-family: sans-serif;
+}
+.contact-title{
+	margin-top: 70px;
+	color: white;
+	text-transform: uppercase;
+	transition: all 4s ease-in-out;
+}
+
+h2 {
+	font-size: 16px;
+}
+.form {
+	margin-top: 50px;
+transition: all 4s ease-in-out;
+}
+
+.form-control{
+	width: 600px;
+	background: transparent;
+	border: none;	
+	border-bottom: 1px solid gray;
+	color: white;
+	font-size: 18px;	
+	margin-bottom:  16px;
+}
+.checkbox{
+	width: 600px;
+	color: white;
+	font-size: 14px;	
+	margin-bottom:  16px;
+	margin-left: 145px;
+
+    vertical-align: middle;
+}
+}
+input{
+	height: 45px;
+
+}
+.submit{
+	background: #f44336;
+	border-color: transparent;
+	color: white;
+	font-weight: bold;
+	letter-spacing: 2px;
+	height: 50px;
+	margin-top: 20px;
+}
+.submit:hover {
+	background-color: #ff5722 ;
+	cursor:pointer;
+}
