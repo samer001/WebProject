@@ -31,9 +31,18 @@ transition: all 4s ease-in-out;
 .checkbox{
 	width: 600px;
 	color: white;
+	font-size: 14px;
+	margin-bottom:  16px;
+	margin-left: 160px;
+
+    vertical-align: middle;
+}
+.checkbox1{
+	width: 600px;
+	color: white;
 	font-size: 14px;	
 	margin-bottom:  16px;
-	margin-left: 145px;
+	margin-left: 60px;
 
     vertical-align: middle;
 }
@@ -54,4 +63,18 @@ input{
 .submit:hover {
 	background-color: #ff5722 ;
 	cursor:pointer;
+}
+.terms {
+color: white;
+font-family: Times, "Times New Roman", Georgia, serif;
+
+}
+.done{
+font-family: cursive;
+color: white;
+
+}
+.terms{
+
+	margin-top: 50px;
 }
